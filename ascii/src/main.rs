@@ -3,7 +3,7 @@ use term_size::dimensions;
 use termion::color;
 
 fn main() {
-    let mut img = match image::open("../input5.png") {
+    let mut img = match image::open("../input.png") {
         Ok(img) => img,
         Err(e) => {
             eprintln!("Ошибка при открытии изображения: {}", e);
